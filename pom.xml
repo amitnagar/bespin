@@ -179,6 +179,24 @@
       <artifactId>spark-core_2.11</artifactId>
       <version>${spark.version}</version>
     </dependency>
+
+    <!-- dependencies for processing Wikipedia -->
+    <dependency>
+      <groupId>info.bliki.wiki</groupId>
+      <artifactId>bliki-core</artifactId>
+      <version>3.1.0</version>
+    </dependency>
+    <dependency> <!-- for org.apache.tools.bzip2.CBZip2InputStream -->
+      <groupId>org.apache.ant</groupId>
+      <artifactId>ant</artifactId>
+      <version>1.9.7</version>
+    </dependency>
+    <dependency>
+      <groupId>edu.stanford.nlp</groupId>
+      <artifactId>stanford-corenlp</artifactId>
+      <version>3.6.0</version>
+    </dependency>
+
   </dependencies>
 
 </project>
